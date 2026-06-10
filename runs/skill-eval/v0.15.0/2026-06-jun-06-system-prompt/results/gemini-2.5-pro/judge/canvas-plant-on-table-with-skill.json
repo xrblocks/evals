@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses `options.enablePlaneDetection()` and `xb.world.placeOnHorizontalSurface()` from the skill content to perfectly accomplish the task of placing a model on a real-world surface.",
+  "task": "canvas-plant-on-table",
+  "judge_model": "gemini-2.5-pro"
+}

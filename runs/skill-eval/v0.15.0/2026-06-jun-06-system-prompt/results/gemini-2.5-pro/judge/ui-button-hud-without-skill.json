@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 4,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the task's logic but hallucinates a completely invented API (`@xr-input/xr-input`, `xr.panel`, `xr.button`) instead of using the documented `xb.SpatialPanel` from the skill content.",
+  "task": "ui-button-hud",
+  "judge_model": "gemini-2.5-pro"
+}

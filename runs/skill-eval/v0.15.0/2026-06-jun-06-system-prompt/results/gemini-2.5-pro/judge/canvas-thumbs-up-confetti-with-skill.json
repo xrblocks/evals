@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses the xb-gestures event API to trigger a well-implemented particle effect, perfectly matching the task requirements and idiomatic patterns.",
+  "task": "canvas-thumbs-up-confetti",
+  "judge_model": "gemini-2.5-pro"
+}

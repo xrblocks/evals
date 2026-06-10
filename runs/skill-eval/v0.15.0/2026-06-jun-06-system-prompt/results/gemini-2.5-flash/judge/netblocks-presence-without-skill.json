@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the logic for the task but uses a completely fabricated API, inventing packages, classes like `SharedRoom`, and events like `userJoined` that do not exist in the provided skill content.",
+  "task": "netblocks-presence",
+  "judge_model": "gemini-2.5-pro"
+}

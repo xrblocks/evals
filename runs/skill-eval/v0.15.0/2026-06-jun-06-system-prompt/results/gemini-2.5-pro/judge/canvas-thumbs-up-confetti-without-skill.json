@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 4,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the task's logic but hallucinates a declarative component API with custom elements and events instead of using the documented imperative gesture event listeners.",
+  "task": "canvas-thumbs-up-confetti",
+  "judge_model": "gemini-2.5-pro"
+}

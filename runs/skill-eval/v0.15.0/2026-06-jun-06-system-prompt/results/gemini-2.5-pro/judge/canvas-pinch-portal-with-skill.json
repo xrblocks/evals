@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses the onSelectEnd event for the pinch gesture and the xb.user.hands.getIndexTip method to position the new cube, perfectly matching the provided API documentation.",
+  "task": "canvas-pinch-portal",
+  "judge_model": "gemini-2.5-pro"
+}

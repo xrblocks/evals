@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 2,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code invents a completely non-existent, polling-based API (`xr.start`, `hands.left.gesture`) instead of using the documented event-based `xb.core.gestureRecognition` API.",
+  "task": "gestures-thumbs-up",
+  "judge_model": "gemini-2.5-pro"
+}

@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses `xb.ModelViewer` and its `loadGLTFModel` method as documented to load and position a grabbable 3D model, fulfilling all task requirements.",
+  "task": "canvas-dandelion",
+  "judge_model": "gemini-2.5-pro"
+}

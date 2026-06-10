@@ -1,0 +1,16 @@
+{
+  "task": "sound-spatial-audio",
+  "skill": "xb-sound",
+  "import_match": 1.0,
+  "api_match": 0.0,
+  "forbidden_clean": 1.0,
+  "parse_ok": 1.0,
+  "composite": 0.667,
+  "import_hits": 0,
+  "import_total": 0,
+  "api_hits": 0,
+  "api_total": 3,
+  "forbidden_violations": [],
+  "parse_errors": [],
+  "src_bytes": 5672
+}

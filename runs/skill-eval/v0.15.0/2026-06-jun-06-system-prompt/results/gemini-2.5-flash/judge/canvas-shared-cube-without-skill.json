@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 2,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code invents a high-level declarative API with functions like `xr.sharedRoom()` and properties like `shared: true` instead of using the documented `enableNet`, `joinRoom`, and `NetObject` classes.",
+  "task": "canvas-shared-cube",
+  "judge_model": "gemini-2.5-pro"
+}

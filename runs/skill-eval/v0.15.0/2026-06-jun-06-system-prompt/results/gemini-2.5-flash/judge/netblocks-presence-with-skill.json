@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the task's logic but invents the entire presence event API (`peerJoined`, `peerUpdated`, `peerLeft`) and peer data structure (`peer.head`) which are not documented in the skill content.",
+  "task": "netblocks-presence",
+  "judge_model": "gemini-2.5-pro"
+}

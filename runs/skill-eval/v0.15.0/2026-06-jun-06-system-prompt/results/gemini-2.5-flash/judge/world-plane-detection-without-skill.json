@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 3,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code attempts the correct logic but uses a completely fabricated API, inventing classes like `PlaneDetector` and its event system instead of the idiomatic `xb.world.placeOnHorizontalSurface` function.",
+  "task": "world-plane-detection",
+  "judge_model": "gemini-2.5-pro"
+}

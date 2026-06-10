@@ -1,0 +1,18 @@
+{
+  "task": "modelviewer-gltf",
+  "skill": "xb-modelviewer",
+  "import_match": 1.0,
+  "api_match": 0.0,
+  "forbidden_clean": 0.0,
+  "parse_ok": 1.0,
+  "composite": 0.333,
+  "import_hits": 0,
+  "import_total": 0,
+  "api_hits": 0,
+  "api_total": 2,
+  "forbidden_violations": [
+    "new GLTFLoader\\(\\)"
+  ],
+  "parse_errors": [],
+  "src_bytes": 2214
+}

@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 4,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the logic for spatial audio using the raw Web Audio API, but it completely hallucinates the xrblocks framework, inventing packages like `@eightch/xr8-js` and elements like `xr-cylinder` while ignoring the provided `xb.sound` API.",
+  "task": "sound-spatial-audio",
+  "judge_model": "gemini-2.5-pro"
+}

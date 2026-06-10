@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The implementation correctly uses all the necessary xrblocks APIs from the skill content, including options setup, the availability check, scene capture, and the multimodal query structure.",
+  "task": "ai-describe-camera",
+  "judge_model": "gemini-2.5-pro"
+}

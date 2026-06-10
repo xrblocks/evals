@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "run_id": "skill-eval-v0.15.0-2026-06-jun-06-system-prompt",
+  "suite": "skill-eval",
+  "run_type": "headline",
+  "run_status": "valid",
+  "run_date": "2026-06-06",
+  "run_arm": "system-prompt",
+  "sdk_npm_version": "0.15.0",
+  "skills_commit": "cef1fe1",
+  "harness_commit": "cef1fe1",
+  "harness_path": "evals/ in google/xrblocks @ cef1fe1",
+  "source_pr": "google/xrblocks#351",
+  "task_suite": {
+    "source_path": "evals/prototypes/tasks/ in google/xrblocks @ cef1fe1",
+    "count": 20,
+    "engineer_spec": [
+      "ai-describe-camera",
+      "depth-occlusion",
+      "gestures-thumbs-up",
+      "hands-pinch-spawn",
+      "modelviewer-gltf",
+      "netblocks-presence",
+      "physics-falling-cube",
+      "sound-spatial-audio",
+      "ui-button-hud",
+      "world-plane-detection"
+    ],
+    "canvas_faithful": [
+      "canvas-color-palette",
+      "canvas-dandelion",
+      "canvas-doorbell",
+      "canvas-occluded-statue",
+      "canvas-pet-rock",
+      "canvas-pinch-portal",
+      "canvas-plant-on-table",
+      "canvas-shared-cube",
+      "canvas-thumbs-up-confetti",
+      "canvas-volleyball"
+    ]
+  },
+  "agent_models": [
+    "gemini-2.5-pro",
+    "gemini-2.5-flash"
+  ],
+  "judge": {
+    "model": "gemini-2.5-pro",
+    "rubric_version": "not_captured",
+    "prompt_source_commit": "cef1fe1"
+  },
+  "n_trials_per_cell": 1,
+  "token_usage": "not_captured",
+  "raw_model_outputs": "not_captured",
+  "derived_summary": {
+    "generated_from": "results/",
+    "metrics": {
+      "gemini-2.5-pro": {
+        "api_match": {
+          "with_skill": 1.0,
+          "without_skill": 0.05,
+          "delta": 0.95
+        },
+        "composite": {
+          "with_skill": 1.0,
+          "without_skill": 0.646,
+          "delta": 0.354
+        },
+        "hallucination_severity": {
+          "with_skill": {
+            "none": 15,
+            "minor": 1,
+            "major": 4
+          },
+          "without_skill": {
+            "none": 3,
+            "minor": 0,
+            "major": 17
+          }
+        }
+      },
+      "gemini-2.5-flash": {
+        "api_match": {
+          "with_skill": 0.95,
+          "without_skill": 0.05,
+          "delta": 0.9
+        },
+        "composite": {
+          "with_skill": 0.983,
+          "without_skill": 0.628,
+          "delta": 0.355
+        },
+        "hallucination_severity": {
+          "with_skill": {
+            "none": 13,
+            "minor": 2,
+            "major": 5
+          },
+          "without_skill": {
+            "none": 0,
+            "minor": 0,
+            "major": 20
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "Skills used were at xrblocks commit cef1fe1, which had unpublished improvements on top of the v0.15.0 npm release (01b0102).",
+    "xb-netblocks and xb-lipsync skill import paths were fixed in google/xrblocks#349 and #350 after this run; a follow-up sweep on v0.16.0 should show those scores stay clean.",
+    "Per-cell n=1 so single-task scores can swing \u00b10.1 between samples on flash."
+  ]
+}

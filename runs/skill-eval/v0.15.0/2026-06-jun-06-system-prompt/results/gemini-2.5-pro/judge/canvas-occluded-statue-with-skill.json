@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code perfectly accomplishes the task by creating a cylinder, moving it back, and correctly using the documented `options.enableDepth()` to enable occlusion.",
+  "task": "canvas-occluded-statue",
+  "judge_model": "gemini-2.5-pro"
+}

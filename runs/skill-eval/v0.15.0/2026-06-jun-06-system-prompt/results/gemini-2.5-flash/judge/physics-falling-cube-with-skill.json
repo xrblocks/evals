@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly enables physics using `options.physics.RAPIER` and implements the simulation logic within the documented `initPhysics` and `physicsStep` script hooks.",
+  "task": "physics-falling-cube",
+  "judge_model": "gemini-2.5-pro"
+}

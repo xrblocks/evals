@@ -1,0 +1,16 @@
+{
+  "task": "canvas-shared-cube",
+  "skill": "xb-netblocks",
+  "import_match": 1.0,
+  "api_match": 1.0,
+  "forbidden_clean": 1.0,
+  "parse_ok": 1.0,
+  "composite": 1.0,
+  "import_hits": 1,
+  "import_total": 1,
+  "api_hits": 3,
+  "api_total": 3,
+  "forbidden_violations": [],
+  "parse_errors": [],
+  "src_bytes": 3214
+}

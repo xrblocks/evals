@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 3,
+  "hallucination_severity": "minor",
+  "rationale": "The code correctly implements the confetti effect triggered by a thumbs-up gesture using the documented event system, but it hallucinates several minor helper properties and functions not present in the skill content, such as `xb.user.height` and `xb.getDeltaTime`.",
+  "task": "canvas-thumbs-up-confetti",
+  "judge_model": "gemini-2.5-pro"
+}
