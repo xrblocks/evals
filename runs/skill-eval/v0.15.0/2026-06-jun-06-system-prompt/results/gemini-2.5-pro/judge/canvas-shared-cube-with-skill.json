@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The implementation correctly uses `enableNet`, `joinRoom`, `NetObject`, and the `claim`/`release` ownership model to create a shared, grabbable object as specified by the task.",
+  "task": "canvas-shared-cube",
+  "judge_model": "gemini-2.5-pro"
+}

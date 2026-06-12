@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 2,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly uses `xb.ModelViewer` to load the model, but it hallucinates a non-existent `xb.user` object for positioning it in the scene.",
+  "task": "modelviewer-gltf",
+  "judge_model": "gemini-2.5-pro"
+}

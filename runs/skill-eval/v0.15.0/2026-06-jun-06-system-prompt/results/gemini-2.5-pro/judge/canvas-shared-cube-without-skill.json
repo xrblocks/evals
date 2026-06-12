@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly describes the desired outcome but uses a completely invented declarative HTML-like API with elements like `<xr-room>` instead of the documented imperative JavaScript `enableNet` and `NetObject` APIs.",
+  "task": "canvas-shared-cube",
+  "judge_model": "gemini-2.5-pro"
+}

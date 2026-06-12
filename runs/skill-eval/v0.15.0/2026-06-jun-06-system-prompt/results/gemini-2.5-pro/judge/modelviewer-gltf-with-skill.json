@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 3,
+  "idiomatic_xrblocks": 2,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly uses `xb.ModelViewer` to load the GLTF model but hallucinates the `xb.user.height` and `xb.user.objectDistance` properties for positioning, which do not exist in the provided API documentation.",
+  "task": "modelviewer-gltf",
+  "judge_model": "gemini-2.5-pro"
+}

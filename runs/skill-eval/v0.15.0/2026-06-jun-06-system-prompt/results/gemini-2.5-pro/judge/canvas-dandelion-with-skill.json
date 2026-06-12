@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 3,
+  "hallucination_severity": "minor",
+  "rationale": "The code correctly uses `xb.ModelViewer` to load and make a GLTF model interactive, but it hallucinates the `xb.user.height` and `xb.user.objectDistance` properties for positioning.",
+  "task": "canvas-dandelion",
+  "judge_model": "gemini-2.5-pro"
+}

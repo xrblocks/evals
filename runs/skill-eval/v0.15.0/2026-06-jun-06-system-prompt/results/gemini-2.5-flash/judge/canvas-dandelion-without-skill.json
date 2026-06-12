@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 2,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code hallucinates a declarative `xr.make` API with invented properties like `grabbable` instead of using the documented `xb.ModelViewer` class, and therefore fails to make the object interactive.",
+  "task": "canvas-dandelion",
+  "judge_model": "gemini-2.5-pro"
+}

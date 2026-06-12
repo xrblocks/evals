@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The candidate correctly uses `xb.core.sound.getAudioListener` with a `THREE.PositionalAudio` instance parented to the target object to create a spatialized sound triggered by interaction events.",
+  "task": "canvas-doorbell",
+  "judge_model": "gemini-2.5-pro"
+}

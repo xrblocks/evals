@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 4,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "major",
+  "rationale": "The code hallucinates the entire API, using a non-existent `xr` package and an invented `xr.ai.describeScene` method instead of the documented `xb.ai.query` function.",
+  "task": "ai-describe-camera",
+  "judge_model": "gemini-2.5-pro"
+}

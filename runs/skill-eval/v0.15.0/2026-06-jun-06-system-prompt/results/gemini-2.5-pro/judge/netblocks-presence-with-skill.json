@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 2,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly uses `enableNet` and `joinRoom` but hallucinates the entire presence API, including the `peer-joined`/`peer-left` events and the `session.peers` and `peer.head` properties, which are not in the skill content.",
+  "task": "netblocks-presence",
+  "judge_model": "gemini-2.5-pro"
+}

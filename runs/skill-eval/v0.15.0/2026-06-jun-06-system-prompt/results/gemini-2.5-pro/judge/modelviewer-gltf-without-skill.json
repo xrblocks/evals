@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 1,
+  "hallucination_severity": "none",
+  "rationale": "The candidate accomplished the task's functional goals but used raw three.js instead of any of the required xrblocks APIs.",
+  "task": "modelviewer-gltf",
+  "judge_model": "gemini-2.5-pro"
+}

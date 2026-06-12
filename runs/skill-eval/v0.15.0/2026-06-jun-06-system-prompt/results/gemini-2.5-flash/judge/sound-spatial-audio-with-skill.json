@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code perfectly accomplishes the task by using the documented `xb.core.sound.getAudioListener()` to create and attach a `THREE.PositionalAudio` object to the cylinder, which plays on user interaction.",
+  "task": "sound-spatial-audio",
+  "judge_model": "gemini-2.5-pro"
+}

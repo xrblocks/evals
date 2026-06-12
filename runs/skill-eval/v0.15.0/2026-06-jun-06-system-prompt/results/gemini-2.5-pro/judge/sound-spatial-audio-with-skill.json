@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses `xb.core.sound.getAudioListener` and `THREE.PositionalAudio` parented to a scene object to create a spatial sound, and idiomatically uses the documented `xb.SoundSynthesizer` to generate the audio clip.",
+  "task": "sound-spatial-audio",
+  "judge_model": "gemini-2.5-pro"
+}

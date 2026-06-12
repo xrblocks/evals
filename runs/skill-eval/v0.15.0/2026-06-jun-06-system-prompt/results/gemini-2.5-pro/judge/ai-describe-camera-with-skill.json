@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses `xb.core.screenshotSynthesizer` and `xb.ai.query` with a multipart payload to capture the scene and ask Gemini for a description, perfectly matching the task and the documented APIs.",
+  "task": "ai-describe-camera",
+  "judge_model": "gemini-2.5-pro"
+}

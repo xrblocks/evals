@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 5,
+  "hallucination_severity": "none",
+  "rationale": "The code correctly uses the documented `xb-gestures` API to listen for 'thumbs-up' and 'fist' gestures and change the object's color, perfectly fulfilling the task requirements.",
+  "task": "gestures-thumbs-up",
+  "judge_model": "gemini-2.5-pro"
+}

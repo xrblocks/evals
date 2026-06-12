@@ -1,0 +1,8 @@
+{
+  "accomplishes_task": 5,
+  "idiomatic_xrblocks": 2,
+  "hallucination_severity": "major",
+  "rationale": "The code correctly implements the documented physics and depth-mesh setup but hallucinates a significant, non-existent API for hand tracking and interaction (`options.enableHands`, `physics.createHandColliders`).",
+  "task": "canvas-volleyball",
+  "judge_model": "gemini-2.5-pro"
+}
